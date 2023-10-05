@@ -1,1 +1,17 @@
-{}
+{
+  "languages": { "en": "english", "ar": "arabic" },
+  "layout": {
+    "nav": {
+      "home": "home",
+      "projects": "projects",
+      "aboutMe": "about me",
+      "contactMe": "contact me"
+    },
+    "toggleMode": {
+      "label": "toggle theme",
+      "dark": "dark",
+      "light": "light",
+      "system": "system"
+    }
+  }
+}

@@ -1,6 +1,5 @@
-export type HomeProps = {
-  params: { lng: string | undefined };
-};
+import { LngParams } from "../type";
+
 export type LayoutProps = {
   children: React.ReactNode;
-} & HomeProps;
+} & LngParams;

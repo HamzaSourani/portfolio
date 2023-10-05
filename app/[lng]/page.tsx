@@ -1,5 +1,5 @@
-import { HomeProps } from "./type";
+import { LngParams } from "../type";
 
-export default function Home({ params: { lng } }: HomeProps) {
-  return <main className=""></main>;
+export default function Home({ params: { lng } }: LngParams) {
+  return <main></main>;
 }
