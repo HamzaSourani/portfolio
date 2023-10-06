@@ -4,6 +4,7 @@
 
 @layer base {
   :root {
+    --white: #ffffff;
     --background: 0 0% 100%;
     --foreground: 222.2 84% 4.9%;
 
@@ -71,6 +72,6 @@
     @apply border-border;
   }
   body {
-    @apply bg-background text-foreground sm:mx-6 md:mx-8 lg:mx-10;
+    @apply bg-background text-foreground sm:mx-6 md:mx-8 lg:mx-10 bg-[url("/assets/images/bg.jpg")] bg-no-repeat bg-center bg-cover min-h-screen  bg-blend-luminosity   dark:bg-blend-soft-light;
   }
 }
