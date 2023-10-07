@@ -42,7 +42,7 @@ export default function RootLayout({ children, params: { lng } }: LayoutProps) {
             <SwitchLanguage lng={lng} />
             <ModeToggle lng={lng} />
           </div>
-          <>{children}</>
+          <main className="w-full h-[calc(100vh_-_112px)]">{children}</main>
         </ThemeProvider>
       </body>
     </html>
