@@ -69,9 +69,9 @@
 
 @layer base {
   * {
-    @apply border-border;
+    @apply box-border border-border;
   }
   body {
-    @apply bg-background text-foreground sm:mx-6 md:mx-8 lg:mx-10 bg-[url("/assets/images/bg.jpg")] bg-no-repeat bg-center bg-cover min-h-screen  bg-blend-luminosity   dark:bg-blend-soft-light;
+    @apply min-h-screen bg-background bg-[url("/assets/images/bg.jpg")] bg-cover bg-center bg-no-repeat text-foreground bg-blend-luminosity dark:bg-blend-soft-light sm:mx-6  md:mx-8   lg:mx-10;
   }
 }
