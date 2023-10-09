@@ -3,18 +3,23 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { NavItemProps } from "./type";
 import classnames from "classnames";
-const NavItem = ({ href, label }: NavItemProps) => {
+const NavItem = ({ href, label, isDisplayOnSmallScreen }: NavItemProps) => {
   const pathname = usePathname();
   return (
     <Link
-      className="relative py-1 sm:text-lg md:text-xl lg:text-2xl"
+      className={classnames(
+        {
+          " hidden md:inline": !isDisplayOnSmallScreen,
+        },
+        "relative py-1 sm:text-lg md:text-xl lg:text-2xl",
+      )}
       href={href}
     >
       {label}
       <span
         className={classnames(
           { "w-full": pathname === href },
-          "absolute w-0 h-[2px] bg-primary transition-all left-0 bottom-0"
+          "absolute bottom-0 left-0 h-[3px] w-0 bg-destructive transition-all",
         )}
       ></span>
     </Link>

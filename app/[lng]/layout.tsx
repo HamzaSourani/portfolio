@@ -38,11 +38,11 @@ export default function RootLayout({ children, params: { lng } }: LayoutProps) {
           disableTransitionOnChange
         >
           <Navbar lng={lng} />
-          <div className="flex flex-row justify-end items-center space-x-3 rtl:space-x-reverse">
+          <div className="flex flex-row items-center justify-end space-x-3 rtl:space-x-reverse">
             <SwitchLanguage lng={lng} />
             <ModeToggle lng={lng} />
           </div>
-          <main className="w-full h-[calc(100vh_-_112px)]">{children}</main>
+          <main className="h-[calc(100vh_-_112px)] w-full">{children}</main>
         </ThemeProvider>
       </body>
     </html>
