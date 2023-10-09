@@ -61,11 +61,20 @@ module.exports = {
           from: { height: "var(--radix-accordion-content-height)" },
           to: { height: 0 },
         },
+        "flip-y": {
+          from: {
+            transform: "rotateY(0deg) scale(1)",
+          },
+          to: {
+            transform: "rotateY(360deg) scale(1.1)",
+          },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
         "spin-slow": "spin 6s linear infinite",
+        "flip-y": "flip-y 1s ease-in-out",
       },
     },
   },

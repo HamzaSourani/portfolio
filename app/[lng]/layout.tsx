@@ -8,6 +8,7 @@ import "../globals.css";
 import { ThemeProvider } from "@/lib/shadecn/themeProvider";
 import ModeToggle from "@/components/layout/modeToggle";
 import SwitchLanguage from "@/components/layout/switchLanguage";
+import { Toaster } from "@/components/ui/toaster";
 
 const sora = Sora({
   subsets: ["latin"],
@@ -42,7 +43,10 @@ export default function RootLayout({ children, params: { lng } }: LayoutProps) {
             <SwitchLanguage lng={lng} />
             <ModeToggle lng={lng} />
           </div>
-          <main className="h-[calc(100vh_-_112px)] w-full">{children}</main>
+          <main className="h-[calc(100vh_-_112px)] w-full overflow-y-auto">
+            {children}
+          </main>
+          <Toaster />
         </ThemeProvider>
       </body>
     </html>

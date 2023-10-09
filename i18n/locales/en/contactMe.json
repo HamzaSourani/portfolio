@@ -1,0 +1,25 @@
+{
+  "form": {
+    "validations": {
+      "required": "this filed is required",
+      "min-to": " this filed must be equal or grater than {{number}} ",
+      "max-to": "this filed must be equal or shorter than  {{number}} ",
+      "email": "this failed must be an email"
+    },
+    "labels": {
+      "email": "email",
+      "subject": "subject",
+      "text": "body"
+    },
+    "placeholders": {
+      "email": "example@domain.com",
+      "subject": "user name or company name",
+      "text": "the content of email"
+    },
+    "submit": "send"
+  },
+  "toast": {
+    "success": " your email has been sending successfully",
+    "error": "failed to send email,please try again "
+  }
+}

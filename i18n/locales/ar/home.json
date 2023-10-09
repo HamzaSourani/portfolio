@@ -1,11 +1,5 @@
 {
   "hello": "مرحباً انا",
   "name": " حمزة صوراني ",
-  "description": "مطور واجهات امامية ",
-  "contacts": {
-    "email": "email",
-    "linkedin": "linkedin",
-    "whatsapp": "whatsapp",
-    "telegram": "telegram"
-  }
+  "description": "مطور واجهات امامية "
 }
