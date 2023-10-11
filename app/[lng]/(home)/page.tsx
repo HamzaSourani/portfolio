@@ -5,7 +5,7 @@ import { LngParams } from "@/app/type";
 export default async function Home({ params: { lng } }: LngParams) {
   return (
     <>
-      <div className={"flex h-full flex-row items-center justify-between"}>
+      <div className={"flex  flex-row items-center justify-between"}>
         <MainInfo lng={lng} />
         <ContactSidebar />
       </div>

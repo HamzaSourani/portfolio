@@ -13,7 +13,7 @@ const Contacts = () => {
         >
           <contact.icon
             className={
-              "group-hover:animate-flip-y h-10 w-10 transition-transform duration-1000 sm:h-12 sm:w-12 md:h-14 md:w-14  "
+              "group-hover:animate-twinkle h-10 w-10 transition-transform duration-1000 sm:h-12 sm:w-12 md:h-14 md:w-14  "
             }
           />
           <span className="mt-2 text-xs uppercase sm:text-sm md:text-lg">

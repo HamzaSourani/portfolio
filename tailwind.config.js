@@ -61,7 +61,20 @@ module.exports = {
           from: { height: "var(--radix-accordion-content-height)" },
           to: { height: 0 },
         },
-        "flip-y": {
+        "grow-and-shrink": {
+          "0%": { transform: "scale(0)" },
+          "50%": { transform: "scale(1)" },
+          "100%": {
+            transform: "scale(0)",
+          },
+        },
+        "spin-180": {
+          from: { transform: "rotate(0deg)" },
+          to: {
+            transform: "rotate(180deg)",
+          },
+        },
+        twinkle: {
           from: {
             transform: "rotateY(0deg) scale(1)",
           },
@@ -69,12 +82,24 @@ module.exports = {
             transform: "rotateY(360deg) scale(1.1)",
           },
         },
+        waving: {
+          "0%, 100%": {
+            borderRadius: "60% 40% 30% 70% / 60% 30% 70% 40%",
+          },
+
+          "50%": {
+            borderRadius: "30% 60% 70% 40% / 50% 60% 30% 60%",
+          },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
         "spin-slow": "spin 6s linear infinite",
-        "flip-y": "flip-y 1s ease-in-out",
+        "sparkle-parent": "grow-and-shrink 1s  forwards",
+        "sparkle-child": "spin-180 1s linear forwards",
+        twinkle: "twinkle 1s ease-in-out",
+        wave: "waving 6s ease-in-out infinite",
       },
     },
   },

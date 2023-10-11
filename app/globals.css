@@ -72,7 +72,7 @@
     @apply box-border border-border;
   }
   body {
-    @apply min-h-screen bg-background bg-[url("/assets/images/bg.jpg")] bg-cover bg-center bg-no-repeat text-foreground bg-blend-luminosity dark:bg-blend-soft-light sm:mx-6  md:mx-8   lg:mx-10;
+    @apply mx-4 min-h-screen bg-background bg-[url("/assets/images/bg.jpg")] bg-cover bg-center bg-no-repeat text-foreground bg-blend-luminosity dark:bg-blend-soft-light sm:mx-6  md:mx-8   lg:mx-10;
   }
 }
 main::-webkit-scrollbar {

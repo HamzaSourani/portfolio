@@ -2,13 +2,13 @@ import { dir } from "i18next";
 import type { Metadata } from "next";
 import { Sora, Noto_Sans_Arabic } from "next/font/google";
 import { isFallbackLng, languages } from "@/i18n/settings";
-import Navbar from "@/components/layout/nav";
-import { LayoutProps } from "./type";
-import "../globals.css";
 import { ThemeProvider } from "@/lib/shadecn/themeProvider";
+import Navbar from "@/components/layout/nav";
 import ModeToggle from "@/components/layout/modeToggle";
 import SwitchLanguage from "@/components/layout/switchLanguage";
 import { Toaster } from "@/components/ui/toaster";
+import { LayoutProps } from "./type";
+import "../globals.css";
 
 const sora = Sora({
   subsets: ["latin"],
@@ -43,7 +43,7 @@ export default function RootLayout({ children, params: { lng } }: LayoutProps) {
             <SwitchLanguage lng={lng} />
             <ModeToggle lng={lng} />
           </div>
-          <main className="h-[calc(100vh_-_112px)] w-full overflow-y-auto">
+          <main className="h-[calc(100vh_-_112px)] w-full overflow-y-auto py-12">
             {children}
           </main>
           <Toaster />
