@@ -1,0 +1,87 @@
+{
+  "projects": {
+    "STG": {
+      "title": "STG",
+      "description": {
+        "main": "The dashboard web app is a powerful and feature-rich solution for managing the STG Android app. It offers users an engaging platform to play games and win prizes, while providing an intuitive user interface, optimized performance, and a seamless user experience. Powered by React.js, JavaScript, and TypeScript, the app boasts an impressive range of features.",
+        "list": {
+          "i18n": "The app further supports multilingual functionality with i18next, enabling users to seamlessly switch between English,Arabic and deutsche.",
+          "charts": "Visualizations and charts are seamlessly integrated into the dashboard, presenting data in a clear and informative manner.",
+          "casl": "User permissions are meticulously managed using the CASL library, allowing fine-grained access control based on user permissions."
+        }
+      },
+      "owner": "STG"
+    },
+    "realState": {
+      "title": "real state app",
+      "description": {
+        "main": "",
+        "list": {
+          "i18n": "The app further supports multilingual functionality with i18next, enabling users to seamlessly switch between English and Arabic ."
+        }
+      }
+    },
+    "levantDashboard": {
+      "title": "address dashboard",
+      "description": {
+        "main": "The dashboard developed fo managing the Address Android app. It is media app that allow users to share there businesses and idea, while providing an intuitive user interface, optimized performance, and a seamless user experience. Powered by Next.js, React.js and JavaScript , the app boasts an impressive range of features.",
+        "list": {
+          "casl": "User permissions are meticulously managed using the CASL library, allowing fine-grained access control based on user roles and permissions."
+        }
+      }
+    },
+    "levantApp": {
+      "title": "address app",
+      "description": {
+        "main": "",
+        "list": {}
+      }
+    },
+    "uluTechDashboard": {
+      "title": "humy dashboard",
+      "description": {
+        "main": "",
+        "list": {}
+      }
+    },
+    "uluTechLandingPage": {
+      "title": "humy landing page",
+      "description": { "main": "", "list": {} }
+    },
+    "tripper": {
+      "title": "tripper",
+      "description": {
+        "main": "",
+        "list": {}
+      }
+    },
+    "alLabeeb": {
+      "title": "al labeeb",
+      "description": {
+        "main": "",
+        "list": {}
+      }
+    },
+    "uno": {
+      "title": "uno",
+      "description": { "main": "", "list": {} }
+    },
+    "smartNavigation": {
+      "title": "smart navigation",
+      "description": { "main": "", "list": {} }
+    }
+  },
+  "commonDescription": {
+    "MUI": "The user interface is built using the Material-UI (MUI) library, ensuring responsive,a sleek and visually captivating design.",
+    "formik": "Form handling and validation are seamlessly managed with Formik and Yup, guaranteeing data integrity and accuracy.",
+    "reactHookForm": "Form handling and validation are seamlessly managed with react hook form and Yup, guaranteeing data integrity and accuracy.",
+    "reactQuery": "To optimize data fetching and synchronization with the server, the app employs React Query, providing efficient caching and reducing unnecessary network requests.",
+    "axios": " Networking capabilities are enhanced with the use of Axios, a popular HTTP client library, which simplifies API calls.",
+    "pagination": "The app incorporates advanced features such as pagination, ensuring efficient data retrieval by fetching smaller chunks of data at a time.",
+    "debounce": "The debounce search mechanism optimizes search functionality by intelligently delaying requests until the user stops typing.",
+    "persistFilterValues": "persist filter values in url params",
+    "skeleton": "The app employs skeleton loading to enhance the user experience, providing placeholder content while data is being fetched.",
+    "toast": "Toast notifications elegantly communicate success and failure messages to users.",
+    "login": "A secure login page ensures authenticated access to the app."
+  }
+}

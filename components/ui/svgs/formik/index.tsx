@@ -1,6 +1,7 @@
 import React from "react";
+import { IconType } from "react-icons/lib";
 
-const FormikIcon = (props: { className: string }) => {
+const FormikIcon: IconType = (props) => {
   return (
     <svg {...props} viewBox="0 0 100 100">
       <path d="M38.8688 0L48.5628 5.57462L10.3866 27.5283L0.692639 21.9536L38.8688 0Z"></path>

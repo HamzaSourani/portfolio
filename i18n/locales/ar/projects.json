@@ -1,0 +1,42 @@
+{
+  "STG": {
+    "title": "STG",
+    "description": ""
+  },
+  "realState": {
+    "title": "موقع عقارات",
+    "description": ""
+  },
+  "levantDashboard": {
+    "title": "address لوحة التحكم ",
+    "description": ""
+  },
+  "levantApp": {
+    "title": "address",
+    "description": ""
+  },
+  "uluTechDashboard": {
+    "title": "humy لوحة تحكم",
+    "description": ""
+  },
+  "uluTechLandingPage": {
+    "title": "humy صفحة هبوط",
+    "description": ""
+  },
+  "tripper": {
+    "title": "tripper",
+    "description": ""
+  },
+  "alLabeeb": {
+    "title": "اللبيب",
+    "description": ""
+  },
+  "uno": {
+    "title": "uno",
+    "description": ""
+  },
+  "smartNavigation": {
+    "title": "التصفح الذكي",
+    "description": ""
+  }
+}
