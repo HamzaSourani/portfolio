@@ -1,6 +1,5 @@
 import Image from "next/image";
 import { translation } from "@/i18n";
-import personalImage from "@/public/assets/images/personal-image.jpg";
 import { LngProps } from "@/app/type";
 
 const MainInfo = async ({ lng }: LngProps) => {
@@ -10,7 +9,7 @@ const MainInfo = async ({ lng }: LngProps) => {
       <h1 className="order-2 basis-3/5  md:order-1">{t("mainParagraph")}</h1>
       <div className="order-1  md:order-2 ">
         <Image
-          src={personalImage}
+          src={"/assets/images/personalImage.png"}
           className=" h-[200px] w-[200px] animate-wave  border border-primary object-cover "
           width={200}
           height={200}

@@ -66,7 +66,7 @@ export const PROJECTS: Projects = [
     id: "1",
     title: "projects.realEstate.title",
     description: {
-      main: "projects.STG.description.main",
+      main: "projects.realEstate.description.main",
       list: [
         "commonDescription.MUI",
         "projects.realEstate.description.list.i18n",
@@ -82,7 +82,7 @@ export const PROJECTS: Projects = [
     },
     owner: "projects.realEstate.owner ",
     estimateTime: "120",
-    images:Array.from(
+    images: Array.from(
       { length: 21 },
       (_, index) => `/assets/images/realEstate/${index}.png`,
     ),

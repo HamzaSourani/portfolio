@@ -42,8 +42,11 @@ const MainInfo = async ({
           ))}
         </div>
       </div>
-      <div className="h-64 sm:h-72 md:h-80">
-        <ProjectImages images={images} />
+
+      <div className="flex flex-col gap-2">
+        <div className="h-64 sm:h-72 md:h-80">
+          <ProjectImages images={images} />
+        </div>
         <div className="flex flex-row gap-4 px-2 pb-2">
           {link && (
             <Link className="transition-transform hover:scale-110" href={link}>
