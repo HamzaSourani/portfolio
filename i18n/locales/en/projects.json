@@ -71,6 +71,10 @@
       "description": { "main": "", "list": {} }
     }
   },
+  "project": {
+    "owner": "owner : {{name}}",
+    "estimatingTime": "project estimating time is {{time}} hours. "
+  },
   "commonDescription": {
     "MUI": "The user interface is built using the Material-UI (MUI) library, ensuring responsive,a sleek and visually captivating design.",
     "formik": "Form handling and validation are seamlessly managed with Formik and Yup, guaranteeing data integrity and accuracy.",

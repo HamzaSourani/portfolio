@@ -7,12 +7,13 @@ export type Project = {
   description: Description;
   owner: string;
   ownerLogo?: IconType;
-  projectEstimateTime: string;
+  estimateTime: string;
   images: string[];
   link?: string;
   sourceCodeUrl?: string;
-  tools: IconType[];
+  tools: Tool[];
   collaborators: string[];
 };
+export type Tool = { label: string; icon: IconType };
 export type Video = { src: string; thumb: string };
 export type Description = { main: string; list: string[] };

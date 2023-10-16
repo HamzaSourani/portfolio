@@ -7,7 +7,7 @@ import { LngProps } from "@/app/type";
 const MainInfo = async ({ lng }: LngProps) => {
   const { t } = await translation(lng, "home");
   return (
-    <section className="relative z-10 m-2 flex h-full grow flex-col items-center justify-center space-y-2 rounded-md bg-[rgba(255,255,255,.2)] p-4  text-primary shadow-sm shadow-slate-500 md:h-[90%]   md:w-2/3 md:grow-0  md:space-y-4   lg:w-1/2   ">
+    <section className="relative z-10 m-2 flex h-full grow flex-col items-center justify-center space-y-2 rounded-md bg-primary/20 p-4  text-primary shadow-sm shadow-slate-500 md:h-[90%]   md:w-2/3 md:grow-0  md:space-y-4   lg:w-1/2   ">
       <h1 className="text-lg  font-medium md:text-2xl ">
         {t("hello")}
         <span className=" text-xl font-bold text-destructive md:text-3xl ">

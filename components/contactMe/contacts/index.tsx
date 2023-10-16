@@ -7,13 +7,13 @@ const Contacts = () => {
       {CONTACTS_OPTIONS.map((contact, index) => (
         <a
           key={index}
-          className="group flex min-w-[100] flex-col items-center justify-center rounded-md bg-[rgba(255,255,255,.2)] p-4 shadow-sm [perspective:56px] sm:min-w-[110px] md:min-w-[126px] "
+          className="group flex min-w-[100] flex-col items-center justify-center rounded-md bg-primary/20 p-4 shadow-sm [perspective:56px] sm:min-w-[110px] md:min-w-[126px] "
           href={contact.href}
           target="_blank"
         >
           <contact.icon
             className={
-              "group-hover:animate-twinkle h-10 w-10 transition-transform duration-1000 sm:h-12 sm:w-12 md:h-14 md:w-14  "
+              "h-10 w-10 transition-transform duration-1000 group-hover:animate-twinkle sm:h-12 sm:w-12 md:h-14 md:w-14  "
             }
           />
           <span className="mt-2 text-xs uppercase sm:text-sm md:text-lg">
