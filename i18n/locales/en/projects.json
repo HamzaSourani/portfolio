@@ -12,14 +12,17 @@
       },
       "owner": "STG"
     },
-    "realState": {
+    "realEstate": {
       "title": "real state app",
       "description": {
-        "main": "",
+        "main": "Step into the world of real estate with this exceptional web app. Explore a vast array of properties available for sale or rent, and effortlessly add them to your favorites. Moreover, users have the convenience of listing their own properties to sell or rent. With its intuitive user interface, optimized performance, and seamless user experience, this app sets a new standard in real estate browsing. Powered by React.js, JavaScript, and TypeScript, it offers an impressive range of features that will captivate every user.",
         "list": {
-          "i18n": "The app further supports multilingual functionality with i18next, enabling users to seamlessly switch between English and Arabic ."
+          "i18n": "The app further supports multilingual functionality with i18next, enabling users to seamlessly switch between English and Arabic .",
+          "formik": "Build multi steps form managed with Formik and Yup, guaranteeing data integrity and accuracy.",
+          "pagination": "The app incorporates advanced features such as pagination on scroll, ensuring efficient data retrieval by fetching smaller chunks of data at a time."
         }
-      }
+      },
+      "owner": "Yahya Darwish"
     },
     "levantDashboard": {
       "title": "address dashboard",
@@ -86,6 +89,8 @@
     "persistFilterValues": "persist filter values in url params",
     "skeleton": "The app employs skeleton loading to enhance the user experience, providing placeholder content while data is being fetched.",
     "toast": "Toast notifications elegantly communicate success and failure messages to users.",
-    "login": "A secure login page ensures authenticated access to the app."
+    "login": "A secure login page ensures authenticated access to the app.",
+    "auth": "A secure sign in and sign up  pages ensures authenticated access to the app.",
+    "guest": "Embark on a delightful journey, granting seamless access to  app as an esteemed guest."
   }
 }

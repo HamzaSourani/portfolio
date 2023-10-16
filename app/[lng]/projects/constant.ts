@@ -44,7 +44,7 @@ export const PROJECTS: Projects = [
     estimateTime: "312",
     images: Array.from(
       { length: 10 },
-      (_, index) => `/assets/images/stg/${index + 1}.png`,
+      (_, index) => `/assets/images/stg/${index}.png`,
     ),
     tools: [
       { label: "react.js", icon: BiLogoReact },
@@ -64,11 +64,28 @@ export const PROJECTS: Projects = [
   },
   {
     id: "1",
-    title: "realState.title",
-    description: { main: "projects.STG.description.main", list: [] },
-    owner: "Yahya Darwish ",
-    estimateTime: "3",
-    images: ["/assets/images/stg/2.png"],
+    title: "projects.realEstate.title",
+    description: {
+      main: "projects.STG.description.main",
+      list: [
+        "commonDescription.MUI",
+        "projects.realEstate.description.list.i18n",
+        "commonDescription.reactQuery",
+        "commonDescription.axios",
+        "projects.realEstate.description.list.formik",
+        "projects.realEstate.description.list.pagination",
+        "commonDescription.toast",
+        "commonDescription.skeleton",
+        "commonDescription.auth",
+        "commonDescription.guest",
+      ],
+    },
+    owner: "projects.realEstate.owner ",
+    estimateTime: "120",
+    images:Array.from(
+      { length: 21 },
+      (_, index) => `/assets/images/realEstate/${index}.png`,
+    ),
     link: "https://real-estate-nqtj.onrender.com/",
     sourceCodeUrl: "https://github.com/HamzaSourani/real-estate-app",
     tools: [
