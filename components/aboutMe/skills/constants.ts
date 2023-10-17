@@ -18,8 +18,10 @@ import {
   SiPostman,
   SiSwagger,
   SiAxios,
+  SiReactrouter,
+  SiReacthookform,
 } from "react-icons/si";
-import ReactHookFromIcon from "@/components/ui/svgs/reactHookForm";
+
 import FormikIcon from "@/components/ui/svgs/formik";
 import Yup from "@/components/ui/svgs/yup";
 export const SKILLS = [
@@ -28,6 +30,7 @@ export const SKILLS = [
   { label: "javascript", icon: BiLogoJavascript },
   { label: "typescript", icon: BiLogoTypescript },
   { label: "react query", icon: SiReactquery },
+  { label: "react router", icon: SiReactrouter },
   { label: "axios", icon: SiAxios },
   { label: "redux", icon: BiLogoRedux },
   { label: "HTML", icon: BiLogoHtml5 },
@@ -36,7 +39,7 @@ export const SKILLS = [
   { label: "MUI", icon: SiMui },
   { label: "i18next", icon: SiI18Next },
   { label: "formik", icon: FormikIcon },
-  { label: "react hook form", icon: ReactHookFromIcon },
+  { label: "react hook form", icon: SiReacthookform },
   { label: "yup", icon: Yup },
   { label: "git", icon: BiLogoGit },
   { label: "github", icon: BiLogoGithub },

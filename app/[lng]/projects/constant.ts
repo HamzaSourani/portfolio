@@ -14,10 +14,13 @@ import {
   SiReactquery,
   SiMui,
   SiAxios,
+  SiReactrouter,
+  SiReacthookform,
 } from "react-icons/si";
-import ReactHookFromIcon from "@/components/ui/svgs/reactHookForm";
 import FormikIcon from "@/components/ui/svgs/formik";
 import Yup from "@/components/ui/svgs/yup";
+import ReactSuiteIcon from "@/components/ui/svgs/rSuite";
+import ReactIconsIcon from "@/components/ui/svgs/reactIcons";
 export const PROJECTS: Projects = [
   {
     id: "0",
@@ -37,7 +40,7 @@ export const PROJECTS: Projects = [
         "commonDescription.persistFilterValues",
         "commonDescription.skeleton",
         "commonDescription.login",
-        "projects.STG.description.list.charts",
+        "commonDescription.charts",
       ],
     },
     owner: "projects.STG.owner",
@@ -105,11 +108,29 @@ export const PROJECTS: Projects = [
   },
   {
     id: "2",
-    title: "levantDashboard.title",
-    description: { main: "projects.STG.description.main", list: [] },
-    owner: "Levant company",
-    estimateTime: "6",
-    images: ["/assets/images/stg/2.png"],
+    title: "projects.addressDashboard.title",
+    description: {
+      main: "projects.addressDashboard.description.main",
+      list: [
+        "projects.addressDashboard.description.list.ui",
+        "commonDescription.redux",
+        "commonDescription.axios",
+        "commonDescription.formik",
+        "commonDescription.pagination",
+        "commonDescription.debounce",
+        "projects.addressDashboard.description.list.casl",
+        "commonDescription.toast",
+        "commonDescription.persistFilterValues",
+        "commonDescription.login",
+        "commonDescription.charts",
+      ],
+    },
+    owner: "projects.addressDashboard.owner",
+    estimateTime: "728",
+    images: Array.from(
+      { length: 14 },
+      (_, index) => `/assets/images/addressDashboard/${index}.png`,
+    ),
 
     tools: [
       { label: "react.js", icon: BiLogoReact },
@@ -118,9 +139,11 @@ export const PROJECTS: Projects = [
       { label: "typescript", icon: BiLogoTypescript },
       { label: "redux", icon: BiLogoRedux },
       { label: "tailwind", icon: BiLogoTailwindCss },
+      { label: "react suite", icon: ReactSuiteIcon },
       { label: "CSS", icon: BiLogoCss3 },
       { label: "HTML", icon: BiLogoHtml5 },
       { label: "formik", icon: FormikIcon },
+      { label: "react icons", icon: ReactIconsIcon },
       { label: "yup", icon: Yup },
       { label: "axios", icon: SiAxios },
     ],
@@ -144,7 +167,7 @@ export const PROJECTS: Projects = [
       { label: "CSS", icon: BiLogoCss3 },
       { label: "HTML", icon: BiLogoHtml5 },
       { label: "i18next", icon: SiI18Next },
-      { label: "react hook form", icon: ReactHookFromIcon },
+      { label: "react hook form", icon: SiReacthookform },
       { label: "yup", icon: Yup },
       { label: "axios", icon: SiAxios },
     ],
@@ -168,7 +191,7 @@ export const PROJECTS: Projects = [
       { label: "CSS", icon: BiLogoCss3 },
       { label: "HTML", icon: BiLogoHtml5 },
       { label: "i18next", icon: SiI18Next },
-      { label: "react hook form", icon: ReactHookFromIcon },
+      { label: "react hook form", icon: SiReacthookform },
       { label: "yup", icon: Yup },
       { label: "axios", icon: SiAxios },
     ],
@@ -215,28 +238,9 @@ export const PROJECTS: Projects = [
     ],
     collaborators: [],
   },
+
   {
     id: "7",
-    title: "uno.title",
-    description: { main: "", list: [] },
-    owner: "personal",
-    estimateTime: "3",
-    images: [],
-    link: "https://mtg2000.github.io/uno/game",
-    sourceCodeUrl: "https://github.com/MTG2000/uno",
-    tools: [
-      { label: "react.js", icon: BiLogoReact },
-      { label: "javascript", icon: BiLogoJavascript },
-      { label: "typescript", icon: BiLogoTypescript },
-      { label: "redux", icon: BiLogoRedux },
-      { label: "MUI", icon: SiMui },
-      { label: "CSS", icon: BiLogoCss3 },
-      { label: "HTML", icon: BiLogoHtml5 },
-    ],
-    collaborators: [],
-  },
-  {
-    id: "8",
     title: "smartNavigation.title",
     description: { main: "", list: [] },
     owner: "personal",
@@ -259,7 +263,7 @@ export const PROJECTS: Projects = [
     collaborators: [],
   },
   {
-    id: "9",
+    id: "8",
     title: "levantApp.title",
     description: { main: "", list: [] },
     owner: "Levant company",
