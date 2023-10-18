@@ -41,16 +41,26 @@
         "list": {}
       }
     },
-    "uluTechDashboard": {
+    "humyDashboard": {
       "title": "humy dashboard",
       "description": {
-        "main": "",
-        "list": {}
-      }
+        "main": "Introducing a dynamic dashboard meticulously crafted to streamline the management of the humy Android apps. Humy revolutionizes the culinary landscape by empowering home cooks to create and sell their delectable creations, delivered straight to the customers' doorsteps. Comprising three distinct apps for users, delivery personnel, and pioneers, this comprehensive ecosystem ensures a seamless experience for all stakeholders. Seamlessly blending an intuitive user interface with optimized performance, this dashboard sets a new benchmark for efficiency in culinary entrepreneurship. Powered by the cutting-edge technologies of React.js, JavaScript,and typescript, this app showcases an impressive repertoire of features, enabling a thriving marketplace for home-based culinary delights.",
+        "list": {
+          "i18n": "The app further supports multilingual functionality with i18next, enabling users to seamlessly switch between English, Arabic and turkish .",
+          "permission": "User permissions are meticulously managed using the react context, allowing fine-grained access control based on user roles and permissions."
+        }
+      },
+      "owner": "UluTech company"
     },
-    "uluTechLandingPage": {
+    "humyLandingPage": {
       "title": "humy landing page",
-      "description": { "main": "", "list": {} }
+      "description": {
+        "main": "Introducing a captivating landing page showcasing the remarkable humy Android apps. Humy revolutionizes the culinary landscape by empowering talented home cooks to unleash their flavorsome creations, delighting customers with convenient doorstep deliveries. This innovative ecosystem comprises three distinct apps tailored for users, delivery personnel, and pioneers, ensuring a seamless experience for all stakeholders. Powered by the cutting-edge technologies of React.js, JavaScript, and TypeScript, this app unveils a stunning array of features.",
+        "list": {
+          "i18n": "The app further supports multilingual functionality with i18next, enabling users to seamlessly switch between English, Arabic and turkish ."
+        }
+      },
+      "owner": "UluTech company"
     },
     "tripper": {
       "title": "tripper",
