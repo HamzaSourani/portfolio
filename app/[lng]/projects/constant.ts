@@ -268,10 +268,17 @@ export const PROJECTS: Projects = [
   },
   {
     id: "6",
-    title: "alLabeeb.title",
-    description: { main: "", list: [] },
-    owner: "Al labeeb",
-    estimateTime: "1",
+    title: "projects.alLabeeb.title",
+    description: {
+      main: "projects.alLabeeb.description.main",
+      list: [
+        "commonDescription.MUI",
+        "commonDescription.redux",
+        "commonDescription.axios",
+      ],
+    },
+    owner: "projects.alLabeeb.owner",
+    estimateTime: "120",
     images: [],
     sourceCodeUrl: "https://github.com/HamzaSourani/hear-me",
     tools: [
