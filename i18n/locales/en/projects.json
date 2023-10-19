@@ -34,12 +34,15 @@
       },
       "owner": "Levant company"
     },
-    "levantApp": {
-      "title": "address app",
+    "addressApp": {
+      "title": "Address app",
       "description": {
-        "main": "",
-        "list": {}
-      }
+        "main": " Address, an all-encompassing e-commerce platform, presents an extensive array of products spanning diverse categories including shops, restaurants, pharmacies, doctors, government services, and beyond. With this app, users can effortlessly explore and purchase products from an expansive network of retailers. Seamlessly blending an intuitive user interface, optimized performance, this app sets a new benchmark for efficiency. Powered by the cutting-edge technologies of Next.js, React.js, and JavaScript, this app showcases an impressive repertoire of features.",
+        "list": {
+          "i18n": "The app further supports multilingual functionality with i18next, enabling users to seamlessly switch between English and Arabic ."
+        }
+      },
+      "owner": "Levant company"
     },
     "humyDashboard": {
       "title": "humy dashboard",
@@ -63,7 +66,7 @@
       "owner": "UluTech company"
     },
     "tripper": {
-      "title": "tripper",
+      "title": "Tripper",
       "description": {
         "main": "Introducing Tripper, an immersive tourism app designed to guide travelers through the enchanting landscapes of Syria, unveiling its captivating beauty and facilitating meticulously organized tours. Tripper empowers users to interact with remarkable destinations, effortlessly adding them to their favorites and sharing insightful comments. Developed with cutting-edge tools like React.js, JavaScript, TypeScript, and MUI (Material-UI), delivering a seamless and visually stunning user experience. Embark on unforgettable journeys with Tripper and unlock the wonders of Syria like never before.",
         "list": {}
@@ -71,11 +74,12 @@
       "owner": "Personal"
     },
     "alLabeeb": {
-      "title": "al labeeb",
+      "title": "Al labeeb",
       "description": {
         "main": "",
         "list": {}
-      }
+      },
+      "owner": "Al labeeb"
     },
 
     "smartNavigation": {
@@ -93,6 +97,7 @@
   },
   "commonDescription": {
     "MUI": "The user interface is built using the Material-UI (MUI) library, ensuring responsive,a sleek and visually captivating design.",
+    "tailwind": "The user interface is built using the tailwind css library, ensuring responsive,a sleek and visually captivating design.",
     "formik": "Form handling and validation are seamlessly managed with Formik and Yup, guaranteeing data integrity and accuracy.",
     "reactHookForm": "Form handling and validation are seamlessly managed with react hook form and Yup, guaranteeing data integrity and accuracy.",
     "reactQuery": "To optimize data fetching and synchronization with the server, the app employs React Query, providing efficient caching and reducing unnecessary network requests.",

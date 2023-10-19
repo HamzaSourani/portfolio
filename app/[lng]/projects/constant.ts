@@ -316,11 +316,21 @@ export const PROJECTS: Projects = [
   },
   {
     id: "8",
-    title: "levantApp.title",
-    description: { main: "", list: [] },
-    owner: "Levant company",
-    estimateTime: "6",
-    images: [],
+    title: "projects.addressApp.title",
+    description: {
+      main: "projects.addressApp.description.main",
+      list: [
+        "commonDescription.tailwind",
+        "projects.addressApp.description.list.i18n",
+        "commonDescription.formik",
+      ],
+    },
+    owner: "projects.addressApp.owner",
+    estimateTime: "42",
+    images: Array.from(
+      { length: 11 },
+      (_, index) => `/assets/images/addressApp/${index}.png`,
+    ),
     tools: [
       { label: "react.js", icon: BiLogoReact },
       { label: "next.js", icon: SiNextdotjs },
