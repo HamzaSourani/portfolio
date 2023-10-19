@@ -1,23 +1,35 @@
-"use client";
-import { useRouter } from "next/navigation";
-import { LuLanguages } from "react-icons/lu";
 import { Button } from "@/components/ui/button";
-import { useTranslation } from "@/i18n/client";
-import { isFallbackLng } from "@/i18n/settings";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
+import { LuLanguages } from "react-icons/lu";
+import { translation } from "@/i18n";
 import { LngProps } from "@/app/type";
+import { LANGUAGES } from "./constants";
+import SwitchLanguageItem from "./item";
+const SwitchLanguage = async ({ lng }: LngProps) => {
+  const { t } = await translation(lng);
 
-export default function SwitchLanguage({ lng }: LngProps) {
-  const { t } = useTranslation(lng);
-  const router = useRouter();
   return (
-    <Button
-      variant="outline"
-      onClick={() => {
-        router.push(isFallbackLng(lng) ? "/ar" : "/en");
-      }}
-    >
-      <LuLanguages className="mr-2 h-4 w-4 rtl:ml-2" />
-      {isFallbackLng(lng) ? t("languages.ar") : t("languages.en")}
-    </Button>
+    <DropdownMenu>
+      <DropdownMenuTrigger asChild>
+        <Button className=" rounded-full" variant="outline" size="icon">
+          <LuLanguages />
+          <span className="sr-only">languages</span>
+        </Button>
+      </DropdownMenuTrigger>
+      <DropdownMenuContent align="end">
+        {LANGUAGES.map((language, index) => (
+          <SwitchLanguageItem
+            key={index}
+            label={t(language.label)}
+            lng={language.target}
+          />
+        ))}
+      </DropdownMenuContent>
+    </DropdownMenu>
   );
-}
+};
+export default SwitchLanguage;

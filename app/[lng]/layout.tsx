@@ -39,11 +39,11 @@ export default function RootLayout({ children, params: { lng } }: LayoutProps) {
           disableTransitionOnChange
         >
           <Navbar lng={lng} />
-          <div className="flex flex-row items-center justify-end space-x-3 rtl:space-x-reverse">
+          <div className="flex flex-row items-center justify-end space-x-3 pb-3 rtl:space-x-reverse">
             <SwitchLanguage lng={lng} />
             <ModeToggle lng={lng} />
           </div>
-          <main className="h-[calc(100vh_-_112px)] w-full overflow-y-auto py-12">
+          <main className="h-[calc(100vh_-_124px)] w-full overflow-y-auto py-12">
             {children}
           </main>
           <Toaster />
