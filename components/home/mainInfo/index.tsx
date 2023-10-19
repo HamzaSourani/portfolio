@@ -15,7 +15,7 @@ const MainInfo = async ({ lng }: LngProps) => {
         </span>
       </h1>
       <h2 className="text-sm font-medium md:text-xl ">{t("description")}</h2>
-      <Link className=" " href={"/projects"}>
+      <Link className=" " href={`${lng}/projects`}>
         <div className=" group relative flex h-[150px] w-[150px] flex-row content-center items-center md:h-[250px] md:w-[250px]">
           <Image
             className=" absolute h-full w-full animate-spin-slow"
