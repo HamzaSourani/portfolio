@@ -16,6 +16,7 @@ import {
   SiAxios,
   SiReactrouter,
   SiReacthookform,
+  SiXstate,
 } from "react-icons/si";
 import FormikIcon from "@/components/ui/svgs/formik";
 import Yup from "@/components/ui/svgs/yup";
@@ -289,17 +290,24 @@ export const PROJECTS: Projects = [
 
   {
     id: "7",
-    title: "smartNavigation.title",
-    description: { main: "", list: [] },
-    owner: "personal",
-    estimateTime: "2",
-    images: [],
+    title: "projects.smartNavigation.title",
+    description: {
+      main: "projects.smartNavigation.description.main",
+      list: [],
+    },
+    owner: "projects.smartNavigation.owner",
+    estimateTime: "50",
+    images: Array.from(
+      { length: 5 },
+      (_, index) => `/assets/images/smartNavigation/${index}.png`,
+    ),
     link: "https://mtg2000.github.io/speech-commands/",
     sourceCodeUrl: "https://github.com/MTG2000/speech-commands",
     tools: [
       { label: "react.js", icon: BiLogoReact },
       { label: "javascript", icon: BiLogoJavascript },
       { label: "react router", icon: SiReactrouter },
+      { label: "Xstate", icon: SiXstate },
       { label: "MUI", icon: SiMui },
       { label: "CSS", icon: BiLogoCss3 },
       { label: "HTML", icon: BiLogoHtml5 },

@@ -80,7 +80,11 @@
 
     "smartNavigation": {
       "title": "smart navigation",
-      "description": { "main": "", "list": {} }
+      "description": {
+        "main": "Introducing a web app that showcases voice-controlled navigation. With the power of speech-to-text AI, users can effortlessly browse web pages using their voice commands. Powered by React.js and styled with MUI (Material-UI), this app seamlessly transforms spoken words into intuitive actions, providing a hands-free and immersive browsing experience. Please note that this app serves as a demonstration, highlighting the exciting possibilities of smart web navigation.",
+        "list": {}
+      },
+      "owner": "Personal"
     }
   },
   "project": {
