@@ -233,11 +233,23 @@ export const PROJECTS: Projects = [
   },
   {
     id: "5",
-    title: "tripper.title",
-    description: { main: "", list: [] },
-    owner: "personal",
-    estimateTime: "3",
-    images: [],
+    title: "projects.tripper.title",
+    description: {
+      main: "projects.tripper.description.main",
+      list: [
+        "commonDescription.MUI",
+        "commonDescription.redux",
+        "commonDescription.axios",
+        "commonDescription.debounce",
+        "commonDescription.auth",
+      ],
+    },
+    owner: "projects.tripper.owner",
+    estimateTime: "280",
+    images: Array.from(
+      { length: 7 },
+      (_, index) => `/assets/images/tripper/${index}.png`,
+    ),
     link: "",
     sourceCodeUrl: "https://github.com/HamzaSourani/Tripper-app",
     tools: [

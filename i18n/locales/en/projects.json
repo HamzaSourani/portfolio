@@ -65,9 +65,10 @@
     "tripper": {
       "title": "tripper",
       "description": {
-        "main": "",
+        "main": "Introducing Tripper, an immersive tourism app designed to guide travelers through the enchanting landscapes of Syria, unveiling its captivating beauty and facilitating meticulously organized tours. Tripper empowers users to interact with remarkable destinations, effortlessly adding them to their favorites and sharing insightful comments. Developed with cutting-edge tools like React.js, JavaScript, TypeScript, and MUI (Material-UI), delivering a seamless and visually stunning user experience. Embark on unforgettable journeys with Tripper and unlock the wonders of Syria like never before.",
         "list": {}
-      }
+      },
+      "owner": "Personal"
     },
     "alLabeeb": {
       "title": "al labeeb",
