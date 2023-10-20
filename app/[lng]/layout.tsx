@@ -19,8 +19,9 @@ const notoSansArabic = Noto_Sans_Arabic({
   weight: ["100", "200", "300", "400", "500", "600", "700"],
 });
 export const metadata: Metadata = {
-  title: "",
-  description: "",
+  title: " Hamza Sourani - Front-End Web Developer with React.js",
+  description:
+    "Welcome to my portfolio! I am a skilled front-end web developer specializing in React.js. Explore my projects, skills, and experience in creating stunning web applications.",
 };
 export async function generateStaticParams() {
   return languages.map((lng) => ({ lng }));
