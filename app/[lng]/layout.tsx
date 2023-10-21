@@ -22,6 +22,14 @@ export const metadata: Metadata = {
   title: " Hamza Sourani - Front-End Web Developer with React.js",
   description:
     "Welcome to my portfolio! I am a skilled front-end web developer specializing in React.js. Explore my projects, skills, and experience in creating stunning web applications.",
+  keywords: [
+    "Front-End web developer",
+    "React.js Developer",
+    "Web Development Portfolio",
+    "User Friendly Interfaces",
+    "Project Showcase",
+    "Skills And Tools: React.js Next.js javascript typescript html css",
+  ],
 };
 export async function generateStaticParams() {
   return languages.map((lng) => ({ lng }));
@@ -44,9 +52,7 @@ export default function RootLayout({ children, params: { lng } }: LayoutProps) {
             <SwitchLanguage lng={lng} />
             <ModeToggle lng={lng} />
           </div>
-          <main className="h-[calc(100vh_-_124px)] w-full overflow-y-auto py-12">
-            {children}
-          </main>
+          <main className=" w-full overflow-y-auto py-12">{children}</main>
           <Toaster />
         </ThemeProvider>
       </body>

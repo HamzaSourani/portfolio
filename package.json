@@ -1,7 +1,24 @@
 {
-  "name": "portfolio",
-  "version": "0.1.0",
-  "private": true,
+  "name": "hamza-sourani-portfolio",
+  "version": "1.0.0",
+  "private": false,
+  "description": "Welcome to my portfolio! I am a skilled front-end web developer specializing in React.js. Explore my projects, skills, and experience in creating stunning web applications.",
+  "author": {
+    "email": "hamzasourani98@gmail.com",
+    "name": "Hamza Sourani"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HamzaSourani/portfolio"
+  },
+  "keywords": [
+    "Front-End web developer",
+    "React.js Developer",
+    "Web Development Portfolio",
+    "User Friendly Interfaces",
+    "Project Showcase",
+    "Skills And Tools: React.js Next.js javascript typescript html css"
+  ],
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -49,6 +66,7 @@
     "postcss": "^8",
     "prettier": "^3.0.3",
     "prettier-plugin-tailwindcss": "^0.5.5",
+    "tailwind-scrollbar": "^3.0.5",
     "tailwindcss": "^3",
     "typescript": "^5"
   }
