@@ -4,7 +4,8 @@ import { useTheme } from "next-themes";
 
 const useParticlesOptions = () => {
   const { theme } = useTheme();
-  const particleColor = theme === "dark" ? "hsl(0,0%,100%)" : "hsl(222,84%,5%)";
+  const particleColor =
+    theme === "dark" ? "hsl(0,0%,100%)" : "hsl(214,72%,75%)";
 
   const PARTICLES_OPTIONS: ISourceOptions = {
     fullScreen: {

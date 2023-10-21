@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import MainInfo from "@/components/aboutMe/mainInfo";
 import Resume from "@/components/aboutMe/resume";
-import Skills from "@/components/aboutMe/skills";
+import Skills from "@/components/aboutMe/skillsAndTools";
 import { LngParams } from "@/app/type";
 export const metadata: Metadata = {
   title: "About Me - Hama Sourani  | Front-End Web Developer",

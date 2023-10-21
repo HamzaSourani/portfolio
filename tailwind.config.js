@@ -46,6 +46,13 @@ module.exports = {
           foreground: "hsl(var(--card-foreground))",
         },
       },
+      dropShadow: {
+        neon: "0 0 3px hsl(var(--foreground))",
+      },
+      backgroundImage: {
+        "hr-linear-gradient":
+          "linear-gradient(45deg,hsl(var(--foreground)),transparent)",
+      },
       borderRadius: {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
