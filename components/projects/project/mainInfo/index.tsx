@@ -2,7 +2,7 @@ import Link from "next/link";
 import classNames from "classnames";
 import { translation } from "@/i18n";
 import { BiLink, BiLogoGithub } from "react-icons/bi";
-// import ProjectImages from "@/components/projects/project/mainInfo/projectImages";
+import ProjectImages from "@/components/projects/project/mainInfo/projectImages";
 import { LngProps } from "@/app/type";
 import { MainInfoProps } from "./type";
 
@@ -45,7 +45,7 @@ const MainInfo = async ({
 
       <div className="flex flex-col gap-2">
         <div className="h-64 sm:h-72 md:h-80">
-          {/* <ProjectImages images={images} /> */}
+          <ProjectImages images={images} />
         </div>
         <div className="flex flex-row gap-4 px-2 pb-2">
           {link && (
