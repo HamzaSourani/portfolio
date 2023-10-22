@@ -1,7 +1,7 @@
 {
   "projects": {
     "STG": {
-      "title": "STG",
+      "title": "STG dashboard",
       "description": {
         "main": "The dashboard web app is a powerful and feature-rich solution for managing the STG Android app. It offers users an engaging platform to play games and win prizes, while providing an intuitive user interface, optimized performance, and a seamless user experience. Powered by React.js, JavaScript, and TypeScript, the app boasts an impressive range of features.",
         "list": {
@@ -76,8 +76,10 @@
     "alLabeeb": {
       "title": "Al labeeb",
       "description": {
-        "main": "",
-        "list": {}
+        "main": "This app prototype, developed for Al Labeeb, connects deaf individuals with the hearing world. It converts spoken language into sign language and vice versa , enabling deaf people to understand spoken communication. Additionally, it translates sign language gestures into text, facilitating communication between deaf and hearing individuals. The app promotes inclusively, empowers deaf individuals, and breaks down communication barriers using advanced technology",
+        "list": {
+          "mediaType": "The app allows users to work with various media types, including uploading image files, recording voice, and capturing screenshots using the device's camera. "
+        }
       },
       "owner": "Al labeeb"
     },

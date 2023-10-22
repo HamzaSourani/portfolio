@@ -273,13 +273,17 @@ export const PROJECTS: Projects = [
       main: "projects.alLabeeb.description.main",
       list: [
         "commonDescription.MUI",
+        "projects.alLabeeb.description.list.mediaType",
         "commonDescription.redux",
         "commonDescription.axios",
       ],
     },
     owner: "projects.alLabeeb.owner",
     estimateTime: "120",
-    images: [],
+    images: Array.from(
+      { length: 4 },
+      (_, index) => `/assets/images/alLabeeb/${index}.png`,
+    ),
     sourceCodeUrl: "https://github.com/HamzaSourani/hear-me",
     tools: [
       { label: "react.js", icon: BiLogoReact },
