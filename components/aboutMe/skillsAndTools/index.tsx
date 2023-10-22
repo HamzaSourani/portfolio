@@ -20,7 +20,7 @@ const Skills = async ({ lng }: LngProps) => {
               <skill.icon
                 className={classNames(
                   {
-                    "dark:drop-shadow-neon animate-spin-slow": index === 0,
+                    "animate-spin-slow dark:drop-shadow-neon": index === 0,
                   },
                   "h-8 w-8  fill-primary sm:h-9 sm:w-9 md:h-10 md:w-10 lg:h-12 lg:w-12",
                 )}
@@ -31,7 +31,7 @@ const Skills = async ({ lng }: LngProps) => {
             </div>
           ))}
         </div>
-        <hr className="bg-hr-linear-gradient drop-shadow-neon h-[1px] w-2/4 rounded-full border-none" />
+        <hr className="rtl:bg-hr-linear-gradient-reverse h-[1px] w-2/4 rounded-full border-none bg-hr-linear-gradient dark:drop-shadow-neon" />
         <h2 className=" text-xl capitalize first-letter:font-bold first-letter:text-muted-foreground  sm:text-2xl md:text-3xl lg:text-4xl">
           {t("tools")}
         </h2>

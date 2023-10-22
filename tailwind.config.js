@@ -52,6 +52,8 @@ module.exports = {
       backgroundImage: {
         "hr-linear-gradient":
           "linear-gradient(45deg,hsl(var(--foreground)),transparent)",
+        "hr-linear-gradient-reverse":
+          "linear-gradient(-45deg,hsl(var(--foreground)),transparent)",
       },
       borderRadius: {
         lg: "var(--radius)",
