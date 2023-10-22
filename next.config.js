@@ -1,4 +1,10 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const nextConfig = {
+  images: {
+    deviceSizes: [320, 420, 768, 1024, 1200],
+    loader: "imgix",
+    path: "https://my-imgix-dev.imgix.net/",
+  },
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
