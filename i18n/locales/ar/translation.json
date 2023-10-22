@@ -1,0 +1,17 @@
+{
+  "languages": { "en": "إنكليزي", "ar": "عربي" },
+  "layout": {
+    "nav": {
+      "home": "الرئيسية",
+      "projects": "المشاريع",
+      "aboutMe": "معلومات حولي",
+      "contactMe": "اتصل بي"
+    },
+    "toggleMode": {
+      "label": "تغيير السيم",
+      "dark": "مظلم",
+      "light": "فاتح",
+      "system": "النظام"
+    }
+  }
+}

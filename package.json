@@ -1,0 +1,73 @@
+{
+  "name": "hamza-sourani-portfolio",
+  "version": "1.0.0",
+  "private": false,
+  "description": "Welcome to my portfolio! I am a skilled front-end web developer specializing in React.js. Explore my projects, skills, and experience in creating stunning web applications.",
+  "author": {
+    "email": "hamzasourani98@gmail.com",
+    "name": "Hamza Sourani"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HamzaSourani/portfolio"
+  },
+  "keywords": [
+    "Front-End web developer",
+    "React.js Developer",
+    "Web Development Portfolio",
+    "User Friendly Interfaces",
+    "Project Showcase",
+    "Skills And Tools: React.js Next.js javascript typescript html css"
+  ],
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^3.3.1",
+    "@radix-ui/react-dropdown-menu": "^2.0.6",
+    "@radix-ui/react-label": "^2.0.2",
+    "@radix-ui/react-slot": "^1.0.2",
+    "@radix-ui/react-toast": "^1.1.5",
+    "accept-language": "^3.0.18",
+    "class-variance-authority": "^0.7.0",
+    "classnames": "^2.3.2",
+    "clsx": "^2.0.0",
+    "framer-motion": "^10.16.4",
+    "i18next": "^23.5.1",
+    "i18next-browser-languagedetector": "^7.1.0",
+    "i18next-resources-to-backend": "^1.1.4",
+    "lucide-react": "^0.284.0",
+    "next": "13.5.4",
+    "next-themes": "^0.2.1",
+    "nodemailer": "^6.9.5",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-hook-form": "^7.47.0",
+    "react-i18next": "^13.2.2",
+    "react-icons": "^4.11.0",
+    "react-tsparticles": "^2.12.2",
+    "swiper": "^10.3.1",
+    "tailwind-merge": "^1.14.0",
+    "tailwindcss-animate": "^1.0.7",
+    "tsparticles-slim": "^2.12.0",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/nodemailer": "^6.4.11",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10",
+    "eslint": "^8",
+    "eslint-config-next": "13.5.4",
+    "postcss": "^8",
+    "prettier": "^3.0.3",
+    "prettier-plugin-tailwindcss": "^0.5.5",
+    "tailwind-scrollbar": "^3.0.5",
+    "tailwindcss": "^3",
+    "typescript": "^5"
+  }
+}

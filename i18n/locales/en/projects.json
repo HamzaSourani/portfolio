@@ -1,0 +1,118 @@
+{
+  "projects": {
+    "STG": {
+      "title": "STG dashboard",
+      "description": {
+        "main": "The dashboard web app is a powerful and feature-rich solution for managing the STG Android app. It offers users an engaging platform to play games and win prizes, while providing an intuitive user interface, optimized performance, and a seamless user experience. Powered by React.js, JavaScript, and TypeScript, the app boasts an impressive range of features.",
+        "list": {
+          "i18n": "The app further supports multilingual functionality with i18next, enabling users to seamlessly switch between English,Arabic and deutsche.",
+          "casl": "User permissions are meticulously managed using the CASL library, allowing fine-grained access control based on user permissions."
+        }
+      },
+      "owner": "STG"
+    },
+    "realEstate": {
+      "title": "real state app",
+      "description": {
+        "main": "Step into the world of real estate with this exceptional web app. Explore a vast array of properties available for sale or rent, and effortlessly add them to your favorites. Moreover, users have the convenience of listing their own properties to sell or rent. With its intuitive user interface, optimized performance, and seamless user experience, this app sets a new standard in real estate browsing. Powered by React.js, JavaScript, and TypeScript, it offers an impressive range of features that will captivate every user.",
+        "list": {
+          "i18n": "The app further supports multilingual functionality with i18next, enabling users to seamlessly switch between English and Arabic .",
+          "formik": "Build multi steps form managed with Formik and Yup, guaranteeing data integrity and accuracy.",
+          "pagination": "The app incorporates advanced features such as pagination on scroll, ensuring efficient data retrieval by fetching smaller chunks of data at a time."
+        }
+      },
+      "owner": "Yahya Darwish"
+    },
+    "addressDashboard": {
+      "title": "address dashboard",
+      "description": {
+        "main": "Introducing dashboard designed to streamline the management of the Address Android app. Address, an all-encompassing e-commerce platform, presents an extensive array of products spanning diverse categories including shops, restaurants, pharmacies, doctors, government services, and beyond. With this app, users can effortlessly explore and purchase products from an expansive network of retailers. Seamlessly blending an intuitive user interface, optimized performance, this dashboard sets a new benchmark for efficiency. Powered by the cutting-edge technologies of Next.js, React.js, and JavaScript, this app showcases an impressive repertoire of features.",
+        "list": {
+          "ui": "The user interface is built using tailwind and react suite libraries, ensuring responsive,a sleek and visually captivating design.",
+          "casl": "User permissions are meticulously managed using the CASL library, allowing fine-grained access control based on user roles and permissions."
+        }
+      },
+      "owner": "Levant company"
+    },
+    "addressApp": {
+      "title": "Address app",
+      "description": {
+        "main": " Address, an all-encompassing e-commerce platform, presents an extensive array of products spanning diverse categories including shops, restaurants, pharmacies, doctors, government services, and beyond. With this app, users can effortlessly explore and purchase products from an expansive network of retailers. Seamlessly blending an intuitive user interface, optimized performance, this app sets a new benchmark for efficiency. Powered by the cutting-edge technologies of Next.js, React.js, and JavaScript, this app showcases an impressive repertoire of features.",
+        "list": {
+          "i18n": "The app further supports multilingual functionality with i18next, enabling users to seamlessly switch between English and Arabic ."
+        }
+      },
+      "owner": "Levant company"
+    },
+    "humyDashboard": {
+      "title": "humy dashboard",
+      "description": {
+        "main": "Introducing a dynamic dashboard meticulously crafted to streamline the management of the humy Android apps. Humy revolutionizes the culinary landscape by empowering home cooks to create and sell their delectable creations, delivered straight to the customers' doorsteps. Comprising three distinct apps for users, delivery personnel, and pioneers, this comprehensive ecosystem ensures a seamless experience for all stakeholders. Seamlessly blending an intuitive user interface with optimized performance, this dashboard sets a new benchmark for efficiency in culinary entrepreneurship. Powered by the cutting-edge technologies of React.js, JavaScript,and typescript, this app showcases an impressive repertoire of features, enabling a thriving marketplace for home-based culinary delights.",
+        "list": {
+          "i18n": "The app further supports multilingual functionality with i18next, enabling users to seamlessly switch between English, Arabic and turkish .",
+          "permission": "User permissions are meticulously managed using the react context, allowing fine-grained access control based on user roles and permissions."
+        }
+      },
+      "owner": "UluTech company"
+    },
+    "humyLandingPage": {
+      "title": "humy landing page",
+      "description": {
+        "main": "Introducing a captivating landing page showcasing the remarkable humy Android apps. Humy revolutionizes the culinary landscape by empowering talented home cooks to unleash their flavorsome creations, delighting customers with convenient doorstep deliveries. This innovative ecosystem comprises three distinct apps tailored for users, delivery personnel, and pioneers, ensuring a seamless experience for all stakeholders. Powered by the cutting-edge technologies of React.js, JavaScript, and TypeScript, this app unveils a stunning array of features.",
+        "list": {
+          "i18n": "The app further supports multilingual functionality with i18next, enabling users to seamlessly switch between English, Arabic and turkish ."
+        }
+      },
+      "owner": "UluTech company"
+    },
+    "tripper": {
+      "title": "Tripper",
+      "description": {
+        "main": "Introducing Tripper, an immersive tourism app designed to guide travelers through the enchanting landscapes of Syria, unveiling its captivating beauty and facilitating meticulously organized tours. Tripper empowers users to interact with remarkable destinations, effortlessly adding them to their favorites and sharing insightful comments. Developed with cutting-edge tools like React.js, JavaScript, TypeScript, and MUI (Material-UI), delivering a seamless and visually stunning user experience. Embark on unforgettable journeys with Tripper and unlock the wonders of Syria like never before.",
+        "list": {}
+      },
+      "owner": "Personal"
+    },
+    "alLabeeb": {
+      "title": "Al labeeb",
+      "description": {
+        "main": "This app prototype, developed for Al Labeeb, connects deaf individuals with the hearing world. It converts spoken language into sign language and vice versa , enabling deaf people to understand spoken communication. Additionally, it translates sign language gestures into text, facilitating communication between deaf and hearing individuals. The app promotes inclusively, empowers deaf individuals, and breaks down communication barriers using advanced technology",
+        "list": {
+          "mediaType": "The app allows users to work with various media types, including uploading image files, recording voice, and capturing screenshots using the device's camera. "
+        }
+      },
+      "owner": "Al labeeb"
+    },
+
+    "smartNavigation": {
+      "title": "smart navigation",
+      "description": {
+        "main": "Introducing a web app that showcases voice-controlled navigation. With the power of speech-to-text AI, users can effortlessly browse web pages using their voice commands. Powered by React.js and styled with MUI (Material-UI), this app seamlessly transforms spoken words into intuitive actions, providing a hands-free and immersive browsing experience. Please note that this app serves as a demonstration, highlighting the exciting possibilities of smart web navigation.",
+        "list": {}
+      },
+      "owner": "Personal"
+    }
+  },
+  "project": {
+    "owner": "owner : {{name}}",
+    "estimatingTime": "project estimating time is {{time}} hours. "
+  },
+  "commonDescription": {
+    "MUI": "The user interface is built using the Material-UI (MUI) library, ensuring responsive,a sleek and visually captivating design.",
+    "tailwind": "The user interface is built using the tailwind css library, ensuring responsive,a sleek and visually captivating design.",
+    "formik": "Form handling and validation are seamlessly managed with Formik and Yup, guaranteeing data integrity and accuracy.",
+    "reactHookForm": "Form handling and validation are seamlessly managed with react hook form and Yup, guaranteeing data integrity and accuracy.",
+    "reactQuery": "To optimize data fetching and synchronization with the server, the app employs React Query, providing efficient caching and reducing unnecessary network requests.",
+    "redux": "Empowering project with Redux Toolkit, a single source of truth unfurls, harmonizing data flow and orchestrating a meticulously organized application. Harnessing the might of Thunk, API fetching becomes seamless, unlocking a realm of efficient data retrieval and management.",
+    "axios": " Networking capabilities are enhanced with the use of Axios, a popular HTTP client library, which simplifies API calls.",
+    "pagination": "The app incorporates advanced features such as pagination, ensuring efficient data retrieval by fetching smaller chunks of data at a time.",
+    "debounce": "The debounce search mechanism optimizes search functionality by intelligently delaying requests until the user stops typing.",
+    "persistFilterValues": "persist filter values in url params",
+    "skeleton": "The app employs skeleton loading to enhance the user experience, providing placeholder content while data is being fetched.",
+    "toast": "Toast notifications elegantly communicate success and failure messages to users.",
+    "login": "A secure login page ensures authenticated access to the app.",
+    "auth": "A secure sign in and sign up  pages ensures authenticated access to the app.",
+    "guest": "Embark on a delightful journey, granting seamless access to  app as an esteemed guest.",
+    "charts": "Visualizations and charts are seamlessly integrated into the dashboard, presenting data in a clear and informative manner."
+  }
+}
