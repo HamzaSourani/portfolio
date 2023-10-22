@@ -16,7 +16,7 @@ const MainInfo = async ({ lng }: LngProps) => {
       <h2 className="text-sm font-medium md:text-xl ">{t("description")}</h2>
       <Link className=" " href={`${lng}/projects`}>
         <div className=" group relative flex h-[150px] w-[150px] flex-row content-center items-center md:h-[250px] md:w-[250px]">
-          <MyProjectsIcon className=" absolute h-full w-full animate-spin-slow fill-secondary" />
+          <MyProjectsIcon className=" absolute h-full w-full fill-secondary" />
           <BsArrowRight className=" absolute left-[50px] top-[60px] text-4xl font-extrabold transition-all  group-hover:left-[60px] rtl:rotate-180 rtl:group-hover:left-[40px] md:left-[85px] md:top-[90px] md:text-7xl md:group-hover:left-[100px] rtl:md:group-hover:left-[70px]" />
         </div>
       </Link>
