@@ -72,7 +72,7 @@
     @apply box-border border-border;
   }
   body {
-    @apply mx-4  min-h-screen bg-background bg-[url("/assets/images/bg.jpg")] bg-cover bg-fixed bg-center bg-no-repeat text-foreground bg-blend-soft-light scrollbar-thin scrollbar-track-secondary scrollbar-thumb-secondary-foreground  sm:mx-6  md:mx-8   lg:mx-10;
+    @apply mx-4   bg-background bg-[url("/assets/images/bg.jpg")] bg-cover bg-fixed bg-center bg-no-repeat text-foreground bg-blend-soft-light scrollbar-thin scrollbar-track-secondary scrollbar-thumb-secondary-foreground  sm:mx-6  md:mx-8   lg:mx-10;
   }
 }
 body::-webkit-scrollbar {
