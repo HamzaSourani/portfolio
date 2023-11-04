@@ -25,7 +25,6 @@ export default async function Home({ params: { lng } }: LngParams) {
           <ContactSidebar />
         </div>
       </div>
-      <div className="h-[1500px]"></div>
       <Particle />
     </>
   );
