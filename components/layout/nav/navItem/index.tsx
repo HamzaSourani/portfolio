@@ -11,7 +11,7 @@ const NavItem = ({ href, label, isDisplayOnSmallScreen }: NavItemProps) => {
         {
           " hidden md:inline": !isDisplayOnSmallScreen,
         },
-        "relative pb-2 sm:text-lg md:text-xl lg:text-2xl",
+        "relative pb-2 capitalize sm:text-lg md:text-xl lg:text-2xl",
       )}
       href={href}
     >

@@ -5,9 +5,6 @@ import { CONTACTS_OPTIONS } from "@/constants";
 const ContactSidebar = () => {
   return (
     <aside className=" hidden flex-col space-y-4 rounded-full bg-primary/20 p-2 shadow-sm md:flex">
-      <Link href={"/contactMe"}>
-        <MdEmail className={" h-8 w-8  transition-all hover:scale-110"} />
-      </Link>
       {CONTACTS_OPTIONS.map((contact, index) => (
         <a key={index} href={contact.href} target="_blank">
           <contact.icon

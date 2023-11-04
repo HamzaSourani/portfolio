@@ -1,12 +1,10 @@
-"use client";
-import type { ISourceOptions } from "tsparticles-engine";
 import { useTheme } from "next-themes";
+import type { ISourceOptions } from "tsparticles-engine";
 
-const useParticlesOptions = () => {
+const useGetParticlesOptions = () => {
   const { theme } = useTheme();
   const particleColor =
-    theme === "dark" ? "hsl(0,0%,100%)" : "hsl(214,72%,75%)";
-
+    theme === "dark" ? "hsl(154,81%,91%)" : "hsl(214,72%,75%)";
   const PARTICLES_OPTIONS: ISourceOptions = {
     fullScreen: {
       enable: true,
@@ -65,7 +63,7 @@ const useParticlesOptions = () => {
       number: {
         density: {
           enable: true,
-          area: 800,
+          area: 1200,
         },
         value: 250,
       },
@@ -84,4 +82,4 @@ const useParticlesOptions = () => {
   return PARTICLES_OPTIONS;
 };
 
-export default useParticlesOptions;
+export default useGetParticlesOptions;

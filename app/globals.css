@@ -17,7 +17,7 @@
     --primary: 222.2 47.4% 11.2%;
     --primary-foreground: 210 40% 98%;
 
-    --secondary: 210 40% 96.1%;
+    --secondary: 167 40% 96.1%;
     --secondary-foreground: 222.2 47.4% 11.2%;
 
     --muted: 210 40% 96.1%;
@@ -49,7 +49,7 @@
     --primary: 210 40% 98%;
     --primary-foreground: 222.2 47.4% 11.2%;
 
-    --secondary: 217.2 32.6% 17.5%;
+    --secondary: 169 53% 55%;
     --secondary-foreground: 210 40% 98%;
 
     --muted: 217.2 32.6% 17.5%;
@@ -72,7 +72,7 @@
     @apply box-border border-border;
   }
   body {
-    @apply mx-4  min-h-screen bg-background bg-[url("/assets/images/bg.jpg")] bg-cover bg-fixed bg-center bg-no-repeat text-foreground bg-blend-soft-light scrollbar-thin scrollbar-track-secondary scrollbar-thumb-secondary-foreground  sm:mx-6  md:mx-8   lg:mx-10;
+    @apply mx-4   bg-background bg-[url("/assets/images/bg.jpg")] bg-cover bg-fixed bg-center bg-no-repeat text-foreground bg-blend-soft-light scrollbar-thin scrollbar-track-secondary scrollbar-thumb-secondary-foreground  sm:mx-6  md:mx-8   lg:mx-10;
   }
 }
 body::-webkit-scrollbar {
