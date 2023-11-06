@@ -5,7 +5,6 @@ import Image from "next/image";
 import "swiper/css";
 import "swiper/css/pagination";
 const ProjectImages = ({ images }: { images: string[] }) => {
-  console.log(images);
   return (
     <Swiper
       modules={[Pagination, Autoplay, A11y]}

@@ -134,9 +134,9 @@ const EmailFrom = ({ lng }: LngProps) => {
               size={"sm"}
             >
               {form.formState.isSubmitting ? (
-                <CgSpinner className="mr-1 animate-spin rtl:ml-1 rtl:mr-0" />
+                <CgSpinner className="mr-1 animate-spin fill-secondary rtl:ml-1 rtl:mr-0" />
               ) : (
-                <IoMdSend className="mr-1 rtl:ml-1 rtl:mr-0" />
+                <IoMdSend className="mr-1 fill-secondary rtl:ml-1 rtl:mr-0" />
               )}
               {t("form.submit")}
             </Button>

@@ -95,7 +95,8 @@
   },
   "project": {
     "owner": "owner : {{name}}",
-    "estimatingTime": "project estimating time is {{time}} hours. "
+    "estimatingTime": "project estimating time is {{time}} hours. ",
+    "showMore": "show more"
   },
   "commonDescription": {
     "MUI": "The user interface is built using the Material-UI (MUI) library, ensuring responsive,a sleek and visually captivating design.",

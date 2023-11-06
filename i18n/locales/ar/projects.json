@@ -95,7 +95,8 @@
   },
   "project": {
     "owner": "المالك : {{name}}",
-    "estimatingTime": "تقدير الوقت للمشروع هو {{time}} ساعة. "
+    "estimatingTime": "تقدير الوقت للمشروع هو {{time}} ساعة. ",
+    "showMore": "رؤية المزيد"
   },
   "commonDescription": {
     "MUI": "تم إنشاء واجهة المستخدم باستخدام مكتبة Material-UI (MUI)، مما يضمن تصميمًا سريع الاستجابة وأنيقًا وجذابًا.",

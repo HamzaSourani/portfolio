@@ -47,15 +47,17 @@ export default function RootLayout({ children, params: { lng } }: LayoutProps) {
           defaultTheme="dark"
           disableTransitionOnChange
         >
-          <header>
-            <Navbar lng={lng} />
-            <div className="flex flex-row items-center justify-end space-x-3 pb-3 rtl:space-x-reverse">
-              <SwitchLanguage lng={lng} />
-              <ModeToggle lng={lng} />
-            </div>
-          </header>
-          <main className=" w-full overflow-y-auto py-12">{children}</main>
-          <Toaster />
+          <div className="m-auto max-w-[100rem]">
+            <header>
+              <Navbar lng={lng} />
+              <div className="flex flex-row items-center justify-end space-x-3 pb-3 rtl:space-x-reverse">
+                <SwitchLanguage lng={lng} />
+                <ModeToggle lng={lng} />
+              </div>
+            </header>
+            <main className=" w-full overflow-y-auto py-12">{children}</main>
+            <Toaster />
+          </div>
         </ThemeProvider>
       </body>
     </html>
