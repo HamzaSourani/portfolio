@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 };
 export default async function Home({ params: { lng } }: LngParams) {
   return (
-    <>
+    <div>
       <div className={"flex  flex-row items-center justify-between"}>
         <MainInfo lng={lng} />
         <div className="flex  flex-col gap-4 ">
@@ -26,6 +26,6 @@ export default async function Home({ params: { lng } }: LngParams) {
         </div>
       </div>
       <Particle />
-    </>
+    </div>
   );
 }

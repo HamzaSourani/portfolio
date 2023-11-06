@@ -9,7 +9,7 @@ const Resume = async ({ lng }: LngProps) => {
     <div className=" flex justify-center">
       <a href={"/assets/hamza-sourani.pdf"} download>
         <Sparkles>
-          <div className=" flex items-center justify-center border-[3px] border-border pr-2  rtl:pl-2 ">
+          <div className=" flex items-center justify-center border-[3px] border-secondary pr-2  rtl:pl-2 ">
             <LiaFileDownloadSolid className="h-14 w-14" />
             <p>{t("resume")}</p>
           </div>

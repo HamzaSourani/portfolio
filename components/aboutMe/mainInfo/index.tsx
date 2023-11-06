@@ -9,7 +9,7 @@ const MainInfo = async ({ lng }: LngProps) => {
       <h1 className="order-2 basis-3/5  md:order-1">{t("mainParagraph")}</h1>
       <div className="order-1  md:order-2 ">
         <Image
-          src={"/assets/images/personalImage.png"}
+          src={"/assets/images/personalImage.jpg"}
           className=" h-[200px] w-[200px] animate-wave  border border-primary object-cover "
           width={200}
           height={200}

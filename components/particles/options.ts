@@ -20,7 +20,7 @@ const useGetParticlesOptions = () => {
       events: {
         onClick: { enable: false, mode: "push" },
         onHover: {
-          enable: true,
+          enable: false,
           mode: "repulse",
         },
         resize: true,
@@ -43,7 +43,7 @@ const useGetParticlesOptions = () => {
         color: particleColor,
         distance: 90,
         enable: true,
-        opacity: 0.5,
+        opacity: 0.2,
         width: 1,
       },
       collisions: {
@@ -65,10 +65,10 @@ const useGetParticlesOptions = () => {
           enable: true,
           area: 1200,
         },
-        value: 250,
+        value: 180,
       },
       opacity: {
-        value: 0.5,
+        value: 0.2,
       },
       shape: {
         type: "circle",
