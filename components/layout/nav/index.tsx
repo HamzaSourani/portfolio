@@ -8,7 +8,7 @@ const Navbar = async ({ lng }: LngProps) => {
   const NAV_LINKS = getNavLink(lng);
   return (
     <nav>
-      <div className="flex flex-row items-center justify-center space-x-3 py-4 rtl:space-x-reverse md:space-x-4 lg:space-x-5">
+      <div className="flex flex-row items-center justify-center space-x-3 py-8 rtl:space-x-reverse md:space-x-4 lg:space-x-5">
         {NAV_LINKS.map((navLink, index) => (
           <NavItem
             key={index}

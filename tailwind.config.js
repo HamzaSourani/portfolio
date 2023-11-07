@@ -104,7 +104,8 @@ module.exports = {
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
-        "spin-slow": "spin 6s linear infinite",
+        "spin-slow": "spin 6s  linear infinite",
+        "spin-reverse": "spin 8s reverse linear infinite",
         "sparkle-parent": "grow-and-shrink 1s  forwards",
         "sparkle-child": "spin-180 1s linear forwards",
         twinkle: "twinkle 1s ease-in-out",

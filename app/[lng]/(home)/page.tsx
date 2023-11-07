@@ -1,20 +1,32 @@
 import type { Metadata } from "next";
+import Link from "next/link";
+import { BsArrowRight } from "react-icons/bs";
 import { LiaFileDownloadSolid } from "react-icons/lia";
+import MyProjectsIcon from "@/components/ui/svgs/myProjects";
 import Particle from "@/components/particles";
 import MainInfo from "@/components/home/mainInfo";
 import ContactSidebar from "@/components/home/contactsSidebar";
+import SkillsAndTools from "@/components/home/skillsAndTools";
 import { LngParams } from "@/app/type";
-export const metadata: Metadata = {
-  title: " Hamza Sourani - Front-End Web Developer with React.js",
-  description:
-    "Welcome to my portfolio! I am a skilled front-end web developer specializing in React.js. Explore my projects, skills, and experience in creating stunning web applications.",
-};
+import { HOME_PAGE_METADATA } from "@/constants/metadata";
+export const metadata: Metadata = HOME_PAGE_METADATA;
 export default async function Home({ params: { lng } }: LngParams) {
   return (
     <div>
-      <div className={"flex  flex-row items-center justify-between"}>
+      <div
+        className={
+          "flex  flex-col flex-wrap items-center justify-between md:flex-row"
+        }
+      >
         <MainInfo lng={lng} />
-        <div className="flex  flex-col gap-4 ">
+        <Link href={`${lng}/projects`}>
+          <div className=" group relative flex h-[150px] w-[150px] flex-row content-center items-center md:h-[250px] md:w-[250px]">
+            <MyProjectsIcon className=" absolute  h-full w-full fill-secondary" />
+            <BsArrowRight className=" absolute left-[50px] top-[60px] text-4xl font-extrabold transition-all  group-hover:left-[60px] rtl:rotate-180 rtl:group-hover:left-[40px] md:left-[85px] md:top-[90px] md:text-7xl md:group-hover:left-[100px] rtl:md:group-hover:left-[70px]" />
+          </div>
+        </Link>
+
+        <div className="hidden flex-col gap-4 md:flex ">
           <a
             href="/assets/hamza-sourani.pdf"
             download
@@ -25,6 +37,8 @@ export default async function Home({ params: { lng } }: LngParams) {
           <ContactSidebar />
         </div>
       </div>
+      <hr className="mt-8 h-[1px] w-2/4 rounded-full border-none bg-hr-linear-gradient rtl:bg-hr-linear-gradient-reverse dark:drop-shadow-neon md:mt-0" />
+      <SkillsAndTools lng={lng} />
       <Particle />
     </div>
   );

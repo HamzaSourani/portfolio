@@ -14,7 +14,7 @@ const ProjectCard = async ({
 }: ProjectCardProps) => {
   const { t } = await translation(lng, "projects");
   return (
-    <div className="  flex flex-col gap-4  overflow-hidden rounded-lg border border-border bg-primary/20   shadow-sm shadow-border ">
+    <div className=" flex max-w-[420px] flex-col gap-4  overflow-hidden rounded-lg border border-border bg-primary/20   shadow-sm shadow-border ">
       <p className=" px-3 pt-3 text-xl capitalize sm:text-2xl md:text-3xl">
         {t(title)}
       </p>
