@@ -9,6 +9,8 @@ import {
   BiLogoGitlab,
   BiLogoGithub,
   BiLogoGit,
+  BiLogoPostgresql,
+  BiLogoMongodb,
 } from "react-icons/bi";
 import {
   SiI18Next,
@@ -20,8 +22,9 @@ import {
   SiAxios,
   SiReactrouter,
   SiReacthookform,
+  SiExpress,
 } from "react-icons/si";
-
+import { FaNode } from "react-icons/fa";
 import FormikIcon from "@/components/ui/svgs/formik";
 import Yup from "@/components/ui/svgs/yup";
 export const SKILLS = [
@@ -29,6 +32,8 @@ export const SKILLS = [
   { label: "next.js", icon: SiNextdotjs },
   { label: "javascript", icon: BiLogoJavascript },
   { label: "typescript", icon: BiLogoTypescript },
+  { label: "node.js", icon: FaNode },
+  { label: "express", icon: SiExpress },
   { label: "react query", icon: SiReactquery },
   { label: "react router", icon: SiReactrouter },
   { label: "axios", icon: SiAxios },
@@ -37,6 +42,8 @@ export const SKILLS = [
   { label: "CSS", icon: BiLogoCss3 },
   { label: "tailwind", icon: BiLogoTailwindCss },
   { label: "MUI", icon: SiMui },
+  { label: "mongoDB", icon: BiLogoMongodb },
+  { label: "postgresQl", icon: BiLogoPostgresql },
   { label: "i18next", icon: SiI18Next },
   { label: "formik", icon: FormikIcon },
   { label: "react hook form", icon: SiReacthookform },
