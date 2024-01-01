@@ -13,7 +13,7 @@ export const CONTACTS_OPTIONS = [
   },
   {
     label: "whatsapp",
-    href: "https://web.whatsapp.com/send?phone=+971523159669",
+    href: "https://wa.me/+971523159669",
     icon: MdWhatsapp,
   },
   {
