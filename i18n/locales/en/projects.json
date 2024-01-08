@@ -1,5 +1,13 @@
 {
   "projects": {
+    "beirutRoaster": {
+      "title": "Beirut Roaster",
+      "description": {
+        "main": "Beirut Roaster is an e-commerce web application that showcases a variety of products such as coffee and nuts. With this platform, you have the convenience of selecting your desired products, specifying the quantity, and easily adding them to your shopping cart. Once you're ready, you can proceed to checkout and have your items delivered right to your doorstep. Payment options include both cash and online transactions through a secure gateway.",
+        "list": {}
+      },
+      "owner": "Sii Media"
+    },
     "STG": {
       "title": "STG dashboard",
       "description": {
@@ -10,6 +18,22 @@
         }
       },
       "owner": "STG"
+    },
+    "rally": {
+      "title": "Rally Group",
+      "description": {
+        "main": "Rally Group is a comprehensive online platform that offers car rental and chauffeur services, providing flexible hour plans and a wide selection of car options. With a special emphasis on luxurious limousine cars, Rally Group ensures that you can rent a car or hire a professional driver with utmost convenience. Whether you need a vehicle for a few hours or an extended period, Rally Group has the perfect solution for you.",
+        "list": {}
+      },
+      "owner": "Sii Media"
+    },
+    "bblend": {
+      "title": "BBlend",
+      "description": {
+        "main": "BBlend is a user-friendly e-commerce web application that showcases a wide range of hair care and beauty products. With BBlend, you have the convenience of selecting your preferred items, specifying the desired quantity, and effortlessly adding them to your shopping cart. Once you're ready, simply proceed to the checkout process, and your order will be delivered right to your doorstep. BBlend offers flexible payment options, allowing you to pay in cash or securely online through a gateway. Enjoy a seamless shopping experience with BBlend, where beauty meets convenience.",
+        "list": {}
+      },
+      "owner": "Sii Media"
     },
     "realEstate": {
       "title": "real state app",
@@ -114,6 +138,8 @@
     "login": "A secure login page ensures authenticated access to the app.",
     "auth": "A secure sign in and sign up  pages ensures authenticated access to the app.",
     "guest": "Embark on a delightful journey, granting seamless access to  app as an esteemed guest.",
-    "charts": "Visualizations and charts are seamlessly integrated into the dashboard, presenting data in a clear and informative manner."
+    "charts": "Visualizations and charts are seamlessly integrated into the dashboard, presenting data in a clear and informative manner.",
+    "checkout": "Add payment checkout functionality with Stripe gateway.",
+    "reactRouter": "Use fetch functionality in react router dom to get data and update it."
   }
 }

@@ -17,14 +17,55 @@ import {
   SiReactrouter,
   SiReacthookform,
   SiXstate,
+  SiTailwindcss,
 } from "react-icons/si";
 import FormikIcon from "@/components/ui/svgs/formik";
 import Yup from "@/components/ui/svgs/yup";
 import ReactSuiteIcon from "@/components/ui/svgs/rSuite";
 import ReactIconsIcon from "@/components/ui/svgs/reactIcons";
+import ReactHookFromIcon from "@/components/ui/svgs/reactHookForm";
 export const PROJECTS: Projects = [
   {
     id: "0",
+    title: "projects.beirutRoaster.title",
+    description: {
+      main: "projects.beirutRoaster.description.main",
+      list: [
+        "commonDescription.checkout",
+        "commonDescription.tailwind",
+        "commonDescription.redux",
+        "commonDescription.reactQuery",
+        "commonDescription.axios",
+        "commonDescription.reactHookForm",
+        "commonDescription.toast",
+        "commonDescription.login",
+      ],
+    },
+    owner: "projects.beirutRoaster.owner",
+    estimateTime: "56",
+    images: Array.from(
+      { length: 18 },
+      (_, index) => `/assets/images/beirutRoaster/${index}.png`,
+    ),
+    link: "https://beirutroaster.siidevelopment.com",
+    tools: [
+      { label: "react.js", icon: BiLogoReact },
+      { label: "javascript", icon: BiLogoJavascript },
+      { label: "typescript", icon: BiLogoTypescript },
+      { label: "react router", icon: SiReactrouter },
+      { label: "react query", icon: SiReactquery },
+      { label: "redux", icon: BiLogoRedux },
+      { label: "tailwind", icon: SiTailwindcss },
+      { label: "CSS", icon: BiLogoCss3 },
+      { label: "HTML", icon: BiLogoHtml5 },
+      { label: "react hook form", icon: ReactHookFromIcon },
+      { label: "yup", icon: Yup },
+      { label: "axios", icon: SiAxios },
+    ],
+    collaborators: [],
+  },
+  {
+    id: "1",
     title: "projects.STG.title",
     description: {
       main: "projects.STG.description.main",
@@ -68,7 +109,73 @@ export const PROJECTS: Projects = [
     collaborators: [],
   },
   {
-    id: "1",
+    id: "2",
+    title: "projects.rally.title",
+    description: {
+      main: "projects.rally.description.main",
+      list: [
+        "commonDescription.tailwind",
+        "commonDescription.reactRouter",
+        "commonDescription.axios",
+        "commonDescription.toast",
+        "commonDescription.login",
+      ],
+    },
+    owner: "projects.rally.owner",
+    estimateTime: "62",
+    images: Array.from(
+      { length: 9 },
+      (_, index) => `/assets/images/rally/${index}.png`,
+    ),
+    link: "https://rallygroup.siidevelopment.com",
+    tools: [
+      { label: "react.js", icon: BiLogoReact },
+      { label: "javascript", icon: BiLogoJavascript },
+      { label: "react router", icon: SiReactrouter },
+      { label: "redux", icon: BiLogoRedux },
+      { label: "tailwind", icon: SiTailwindcss },
+      { label: "CSS", icon: BiLogoCss3 },
+      { label: "HTML", icon: BiLogoHtml5 },
+      { label: "axios", icon: SiAxios },
+    ],
+    collaborators: [],
+  },
+  {
+    id: "3",
+    title: "projects.bblend.title",
+    description: {
+      main: "projects.bblend.description.main",
+      list: [
+        "commonDescription.checkout",
+        "commonDescription.tailwind",
+        "commonDescription.redux",
+        "commonDescription.reactRouter",
+        "commonDescription.axios",
+        "commonDescription.toast",
+        "commonDescription.login",
+      ],
+    },
+    owner: "projects.bblend.owner",
+    estimateTime: "56",
+    images: Array.from(
+      { length: 10 },
+      (_, index) => `/assets/images/bblend/${index}.png`,
+    ),
+    link: "https://siidevelopment.com",
+    tools: [
+      { label: "react.js", icon: BiLogoReact },
+      { label: "javascript", icon: BiLogoJavascript },
+      { label: "react router", icon: SiReactrouter },
+      { label: "redux", icon: BiLogoRedux },
+      { label: "tailwind", icon: SiTailwindcss },
+      { label: "CSS", icon: BiLogoCss3 },
+      { label: "HTML", icon: BiLogoHtml5 },
+      { label: "axios", icon: SiAxios },
+    ],
+    collaborators: [],
+  },
+  {
+    id: "4",
     title: "projects.realEstate.title",
     description: {
       main: "projects.realEstate.description.main",
@@ -110,7 +217,7 @@ export const PROJECTS: Projects = [
     collaborators: [],
   },
   {
-    id: "2",
+    id: "5",
     title: "projects.addressDashboard.title",
     description: {
       main: "projects.addressDashboard.description.main",
@@ -153,7 +260,7 @@ export const PROJECTS: Projects = [
     collaborators: [],
   },
   {
-    id: "3",
+    id: "6",
     title: "projects.humyDashboard.title",
     description: {
       main: "projects.humyDashboard.description.main",
@@ -195,7 +302,7 @@ export const PROJECTS: Projects = [
     collaborators: [],
   },
   {
-    id: "4",
+    id: "7",
     title: "projects.humyLandingPage.title",
     description: {
       main: "projects.humyLandingPage.description.main",
@@ -233,7 +340,7 @@ export const PROJECTS: Projects = [
     collaborators: [],
   },
   {
-    id: "5",
+    id: "8",
     title: "projects.tripper.title",
     description: {
       main: "projects.tripper.description.main",
@@ -267,7 +374,7 @@ export const PROJECTS: Projects = [
     collaborators: [],
   },
   {
-    id: "6",
+    id: "9",
     title: "projects.alLabeeb.title",
     description: {
       main: "projects.alLabeeb.description.main",
@@ -300,7 +407,7 @@ export const PROJECTS: Projects = [
   },
 
   {
-    id: "7",
+    id: "10",
     title: "projects.smartNavigation.title",
     description: {
       main: "projects.smartNavigation.description.main",
@@ -326,7 +433,7 @@ export const PROJECTS: Projects = [
     collaborators: [],
   },
   {
-    id: "8",
+    id: "11",
     title: "projects.addressApp.title",
     description: {
       main: "projects.addressApp.description.main",
