@@ -47,7 +47,8 @@ export const PROJECTS: Projects = [
       { length: 18 },
       (_, index) => `/assets/images/beirutRoaster/${index}.png`,
     ),
-    link: "https://beirutroaster.siidevelopment.com",
+    link: "http://bierut-roaster.netlify.app",
+    // "https://beirutroaster.siidevelopment.com",
     tools: [
       { label: "react.js", icon: BiLogoReact },
       { label: "javascript", icon: BiLogoJavascript },
@@ -87,6 +88,7 @@ export const PROJECTS: Projects = [
     },
     owner: "projects.STG.owner",
     estimateTime: "312",
+    link: "https://hadeya-dashboard.stgtrading.de",
     images: Array.from(
       { length: 10 },
       (_, index) => `/assets/images/stg/${index}.png`,
@@ -237,6 +239,7 @@ export const PROJECTS: Projects = [
     },
     owner: "projects.addressDashboard.owner",
     estimateTime: "728",
+    link: "https://address-admin.vercel.app/",
     images: Array.from(
       { length: 14 },
       (_, index) => `/assets/images/addressDashboard/${index}.png`,
@@ -279,6 +282,7 @@ export const PROJECTS: Projects = [
     },
     owner: "projects.humyDashboard.owner",
     estimateTime: "840",
+    link: "https://dashboard-production.humyapp.net",
     images: Array.from(
       { length: 22 },
       (_, index) => `/assets/images/humyDashboard/${index}.png`,
