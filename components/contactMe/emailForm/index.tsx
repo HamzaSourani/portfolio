@@ -19,7 +19,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { Button } from "@/components/ui/button";
 import { LngProps } from "@/app/type";
 import { useToast } from "@/components/ui/use-toast";
-const EmailFrom = ({ lng }: LngProps) => {
+const EmailForm = ({ lng }: LngProps) => {
   const { t } = useTranslation(lng, "contactMe");
   const { toast } = useToast();
   const defaultValues: Z.infer<typeof formSchema> = {
@@ -147,4 +147,4 @@ const EmailFrom = ({ lng }: LngProps) => {
   );
 };
 
-export default EmailFrom;
+export default EmailForm;
