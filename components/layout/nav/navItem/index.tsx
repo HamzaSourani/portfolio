@@ -19,7 +19,7 @@ const NavItem = ({ href, label, isDisplayOnSmallScreen }: NavItemProps) => {
       <span
         className={classnames(
           { "w-full": pathname === href },
-          "absolute bottom-0 left-0 h-[3px] w-0 rounded-full bg-primary transition-all",
+          "absolute bottom-0 left-0 h-[3px] w-0 rounded-full bg-secondary transition-all",
         )}
       ></span>
     </Link>

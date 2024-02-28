@@ -19,18 +19,24 @@ const notoSansArabic = Noto_Sans_Arabic({
   weight: ["100", "200", "300", "400", "500", "600", "700"],
 });
 export const metadata: Metadata = {
-  title: " Hamza Sourani - Front-End Web Developer with React.js",
+  title: " Hamza Sourani - MERN stack Developer",
   description:
-    "Welcome to my portfolio! I am a skilled front-end web developer specializing in React.js. Explore my projects, skills, and experience in creating stunning web applications.",
-  keywords: [
-    "Front-End web developer",
-    "React.js Developer",
-    "Web Development Portfolio",
-    "User Friendly Interfaces",
-    "Project Showcase",
-    "Skills And Tools: React.js Next.js javascript typescript html css",
+    "Welcome to my portfolio! I am a skilled MERN stack developer with +3 years of experience. Explore my projects, skills, and experience in creating stunning web applications.",
+  authors: [
+    { name: "Hamza Sourani", url: "https://www.linkedin.com/in/hamza-sourani" },
   ],
+  viewport: "width=device-width, initial-scale=1.0",
+  robots: "index, follow",
+  openGraph: {
+    siteName: "Hamza Sourani portfolio",
+    description:
+      "Welcome to my portfolio! I am a skilled MERN stack developer with +3 years of experience. Explore my projects, skills, and experience in creating stunning web applications.",
+    type: "website",
+    images: "/assets/images/site.png",
+    url: "https://hamza-sourani.vercel.app",
+  },
 };
+
 export async function generateStaticParams() {
   return languages.map((lng) => ({ lng }));
 }
