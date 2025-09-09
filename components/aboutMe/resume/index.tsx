@@ -7,7 +7,7 @@ const Resume = async ({ lng }: LngProps) => {
   const { t } = await translation(lng, "aboutMe");
   return (
     <div className=" flex justify-center">
-      <a href={"/assets/hamza-sourani.pdf"} download>
+      <a href={"/assets/Hamza_Sourani _Web_Developer.pdf"} download>
         <Sparkles>
           <div className=" flex items-center justify-center border-[3px] border-secondary pr-2  rtl:pl-2 ">
             <LiaFileDownloadSolid className="h-14 w-14" />
