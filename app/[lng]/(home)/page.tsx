@@ -28,7 +28,7 @@ export default async function Home({ params: { lng } }: LngParams) {
 
         <div className="hidden flex-col gap-4 md:flex ">
           <a
-            href="/assets/Hamza_Sourani_Web_Developer.pdf"
+            href="/assets/Hamza_Sourani_Frontend_Developer.pdf"
             download
             className=" relative  animate-bounce rounded-full bg-primary/20 p-2 shadow-sm hover:animate-none"
           >
