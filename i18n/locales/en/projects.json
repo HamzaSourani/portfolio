@@ -1,5 +1,19 @@
 {
   "projects": {
+    "CBT": {
+      "title": "CBT(Corporate Booking Tool)",
+      "description": {
+        "main": "AirRetailer is the industry’s most innovative corporate travel booking solution, offering access to content from NDC channels, LCC airlines, and GDS integrated platforms on a single screen for TMCs and corporate travelers. Additionally, AirRetailer seamlessly integrates with IATA's IFG Payment gateway, ensuring secure and efficient transactions."
+      },
+      "owner": "AirRetailer"
+    },
+    "SIIB": {
+      "title": "Al Labeeb SIIB",
+      "description": {
+        "main": "This application aims to empower deaf individuals to participate more fully in society by providing access to essential services from the Syrian International Islamic Bank, including opening bank accounts, making withdrawals, and depositing funds."
+      },
+      "owner": "Al labeeb"
+    },
     "beirutRoaster": {
       "title": "Beirut Roaster",
       "description": {

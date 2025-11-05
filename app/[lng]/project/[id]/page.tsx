@@ -4,7 +4,9 @@ import { PROJECTS } from "../../projects/constant";
 import { ProjectProps } from "./type";
 
 async function Project({ params: { id, lng } }: ProjectProps) {
-  const { description, ...mainInfo } = PROJECTS[Number(id)];
+  const { description, ...mainInfo } = PROJECTS.find(
+    (project) => project.id === id,
+  )!;
   return (
     <div className="flex flex-col gap-8">
       <MainInfo {...{ lng, ...mainInfo }} />
