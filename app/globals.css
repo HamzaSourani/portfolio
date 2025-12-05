@@ -75,14 +75,3 @@
     @apply mx-4    bg-background bg-[url("/assets/images/bg.jpg")] bg-cover bg-fixed bg-center bg-no-repeat text-foreground bg-blend-soft-light scrollbar-thin scrollbar-track-secondary scrollbar-thumb-secondary-foreground  sm:mx-6  md:mx-8   lg:mx-10;
   }
 }
-body::-webkit-scrollbar {
-  width: 8px;
-}
-body::-webkit-scrollbar-track {
-  width: 8px;
-}
-body::-webkit-scrollbar-thumb {
-  border: 0.2px solid transparent;
-  border-radius: 1rem;
-  background-clip: content-box;
-}
